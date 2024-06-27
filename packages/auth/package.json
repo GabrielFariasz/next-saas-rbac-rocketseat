@@ -1,0 +1,19 @@
+{
+  "name": "@repo/auth",
+  "version": "0.0.0",
+  "main": "src/index.ts",
+  "description": "",
+  "private": true,
+  "types": "src/index.ts",
+  "devDependencies": {
+    "@repo/prettier": "workspace:*",
+    "@repo/eslint-config": "workspace:*",
+    "repo/tsconfig": "workspace:*"
+  },
+  "prettier": "@repo/prettier",
+  "eslintConfig": {
+    "extends": [
+      "@repo/eslint-config/library"
+    ]
+  }
+}
