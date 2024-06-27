@@ -6,14 +6,17 @@
   "private": true,
   "types": "src/index.ts",
   "devDependencies": {
-    "@repo/prettier": "workspace:*",
     "@repo/eslint-config": "workspace:*",
-    "repo/tsconfig": "workspace:*"
+    "@repo/prettier": "workspace:*",
+    "@repo/tsconfig": "workspace:*"
   },
   "prettier": "@repo/prettier",
   "eslintConfig": {
     "extends": [
       "@repo/eslint-config/library"
     ]
+  },
+  "dependencies": {
+    "@casl/ability": "^6.7.1"
   }
 }
