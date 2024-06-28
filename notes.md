@@ -40,5 +40,5 @@ packages -> pacotes compartilhados por todos os apps do monorepo
 - https://turbo.build/
 - typedef js
 - https://casl.js.org/v6/en/
-
+- Record Type on TS
 

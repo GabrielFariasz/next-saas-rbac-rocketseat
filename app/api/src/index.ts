@@ -1,7 +1,3 @@
-import { ability } from '@repo/auth'
+import {defineAbilityFor} from '@repo/auth'
 
-const userCanInviteSomeoneElse = ability.can('invite', 'User')
-const userCanDeleteOtherUser = ability.can('delete', 'User')
-
-console.log({ userCanInviteSomeoneElse })
-console.log({ userCanDeleteOtherUser })
+const ability = defineAbilityFor({role: 'ADMIN'})
