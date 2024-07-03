@@ -1,3 +1,3 @@
-import {defineAbilityFor} from '@repo/auth'
+import { defineAbilityFor } from '@repo/auth'
 
-const ability = defineAbilityFor({role: 'ADMIN'})
+const ability = defineAbilityFor({ role: 'ADMIN' })
